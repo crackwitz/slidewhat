@@ -27,7 +27,7 @@ I expect objects moving in relation to the projector and screen to be very much 
 
 Parts of the background need to be recognized across frames. I will choose a suitable feature extractor and feature descriptor. Optical flow analysis may support this tracking effort.
 
-We need know if pixel values changed because the projection changed (secondary light source), or because either the primary light sources changed intensity or the camera adjusted its properties (exposure, white balance). Parts of the background that are relatively unaffected by the secondary (stable) will serve to gauge the primaries and determine current camera exposure and white balance properties.
+We need to know if pixel values changed because the projection changed (secondary light source), or because either the primary light sources changed intensity or the camera adjusted its properties (exposure, white balance). Parts of the background that are relatively unaffected by the secondary (stable) will serve to gauge the primaries and determine current camera exposure and white balance properties.
 
 Conceptually, pixel value change events can be attributed to camera property changes (exposure, white balance) or change of the secondary. Camera property changes affect the whole camera image uniformly and usually slowly, so as not to be noticeable to viewers. Intensity changes in the secondary are usually abrupt (hard slide transition) and affect some parts of the camera image more than others.
 
