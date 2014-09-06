@@ -21,7 +21,7 @@ Primary light sources (ceiling lights, windows) are static in intensity or low-f
 
 ## Approach
 
-Video projectors are significant light sources within a lecture hall or meeting room. Indirect light from a video projector gives clues as to what is currently being projected. This indirect light can be captured from the wall directly surrounding the projection, but also other objects in the scene that catch the light scattered from the screen or wall.
+Video projectors are significant light sources within a lecture hall or meeting room. Indirect light from a video projector gives clues as to what is currently being projected. This indirect light can be captured from the wall directly surrounding the projection, but also other objects in the scene that catch the light scattered from the screen or wall. Some static objects may even reflect a part of the projection specularly towards the camera.
 
 I expect objects moving in relation to the projector and screen to be very much harder to get stable measurements from. Thus I will track only static objects in the scene, which I call "background". Objects that are static to one another have the property that they move uniformly through the camera picture. Of such moving groups, the largest group by area is taken to be background.
 
